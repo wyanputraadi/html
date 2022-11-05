@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML</title>
+</head>
+<body>
+	<h2>Form Pendaftaran</h2>
+	<form>
+		<label>NIK</label>
+		<input type="text" name="NIK" placeholder="Masukan Nik Anda"><br>
+
+		<label>Nama Lengkap</label>
+		<input type="text" name="namalengkap" placeholder="Nama Lengkap"><br>
+
+		<label>Tanggal Lahir</label>
+		<input type="date" name="tgl_lahir"><br>
+
+		<label>Email</label>
+		<input type="email" name="email" placeholder="Email"><br>
+
+		<label>Password</label>
+		<input type="password" name="password" placeholder="Password"><br>
+
+		<label>Jenis Kelamin</label>
+		<input type="radio" id="jk" name="jk" value="laki-laki">
+  		<label for="laki-laki">Laki-laki</label>
+  		<input type="radio" id="jk" name="jk" value="perempuan">
+  		<label for="perempuan">Perempuan</label><br>
+
+  		<label>Agama</label>
+  		<select name="agama">
+  			<option value="hindu">Hindu</option>
+  			<option value="islam">Islam</option>
+  			<option value="buddha">Buddha</option>
+  			<option value="kristen">Kristen Protestan</option>
+  			<option value="katolik">Katolik</option>
+  			<option value="konghucu">Konghucu</option> 
+		</select>
+		<br>
+		<label>Hobi</label><br>
+		<input type="checkbox" id="sepeda" name="sepeda" value="Bersepeda">
+  		<label for="sepeda"> Bersepeda</label><br>
+  		<input type="checkbox" id="sepakbola" name="sepakbola" value="Sepakbola">
+  		<label for="sepakbola"> SepakBola</label><br>
+  		<input type="checkbox" id="baca" name="baca" value="Baca">
+  		<label for="baca"> Membaca</label><br>
+        <input type="checkbox" id="baca" name="baca" value="Baca">
+  		<label for="baca"> Merenung</label><br>
+        <input type="checkbox" id="baca" name="baca" value="Baca">
+  		<label for="baca">Ngoding</label><br>
+        <input type="checkbox" id="baca" name="baca" value="Baca">
+  		<label for="baca">Mikirin Mantan</label><br>
+
+		<tr>
+			<td>Jumlah Barang Yang Di Beli</td>
+			<td>:</td>
+			<td><input type="number" name="number"></td>
+		</tr> <br>
+
+  		<label>File Foto</label>
+  		<input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+       <br>
+  		<button>Kirim</button>
+	</form>
+</body>
+</html>
